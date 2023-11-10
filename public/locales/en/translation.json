@@ -1,0 +1,9 @@
+{
+    "nav":{
+        "home": "Home",
+        "pricing": "Pricing",
+        "contact_sales": "Contact Sales",
+        "track_shipment":"Track Shipment",
+        "signin":"Sign In"
+    }
+}
