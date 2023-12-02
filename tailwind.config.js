@@ -2,7 +2,11 @@
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
-        extend: {}
+        extend: {
+            colors: {
+                bostaRed: '#e30613'
+            }
+        }
     },
     plugins: []
 }

@@ -1,11 +1,7 @@
-// import StepperComponent from "../Stepper/Stepper"
 
-// import MyStepper from "../Stepper/Stepper"
-
-
-const StatusBox = () => {
+const ShipmentDetails = () => {
     return (
-        <section className="mt-20 border rounded-md  max-w-6xl mx-auto ">
+        <>
             <table className="flex flex-col space-y-2 px-6 pt-2">
                 <thead>
                     <tr className="flex text-slate-400 ">
@@ -24,11 +20,8 @@ const StatusBox = () => {
                     </tr>
                 </tbody>
             </table>
-            <hr />
-            {/* <MyStepper /> */}
-        </section>
-
+        </>
     )
 }
 
-export default StatusBox
+export default ShipmentDetails
