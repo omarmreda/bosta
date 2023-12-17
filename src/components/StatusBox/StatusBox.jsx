@@ -1,6 +1,6 @@
-// import StepperComponent from "../Stepper/Stepper"
 
-// import MyStepper from "../Stepper/Stepper"
+import CustomizedSteppers from "../Stepper/Stepper"
+import MyStepper from "../Stepper/Stepper"
 
 
 const StatusBox = () => {
@@ -25,7 +25,7 @@ const StatusBox = () => {
                 </tbody>
             </table>
             <hr />
-            {/* <MyStepper /> */}
+            <CustomizedSteppers />
         </section>
 
     )
